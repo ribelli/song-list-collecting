@@ -8,7 +8,7 @@ let SongSchema = new Schema({
         max: 100,
         validate: {
             validator: function (text) {
-                return true;
+                // return for the validation rule;
             },
             message: 'Name is non valid',
         }
